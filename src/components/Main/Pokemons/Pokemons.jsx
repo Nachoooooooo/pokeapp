@@ -20,13 +20,13 @@ const Pokes = () => {
         results.forEach((value) => {
           axios.get(value.url).then((r) => {
             list.push({
-              ...value, r:r.data
+              ...value, r: r.data
             })
             setPokemons(list);
             setFilteredPokemons(list);
           })
         })
- 
+
       } catch (e) {
         setPokemons([])
         setFilteredPokemons([]) // No pintes nada 
@@ -55,10 +55,16 @@ const Pokes = () => {
     {filteredPokemons.length !== 0 ?
       <ul className='listado'>
         {filteredPokemons.map(pokemon => (
-          
-          
-          
-          <li key={pokemon.name}>  <img src={pokemon.r.sprites.other.home.front_default} width={200} height={200} alt='pokemons'></img><br></br>NAME: {pokemon.name}<br></br> BASE EXPERIENCE: {pokemon.r.base_experience}<br></br> HEIGHT: {pokemon.r.height}</li>
+
+
+
+          <li key={pokemon.name}>  
+          <img src={pokemon.r.sprites.other.home.front_default} width={200} height={200} alt='pokemons'></img><br>
+          </br>NAME: {pokemon.name}<br>
+          </br> BASE EXPERIENCE: {pokemon.r.base_experience}<br>
+          </br> HEIGHT: {pokemon.r.height}<br>
+          </br> WEIGTH: {pokemon.r.weight}
+          </li>
         ))}
       </ul>
       : ""

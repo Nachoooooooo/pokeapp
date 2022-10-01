@@ -188,7 +188,18 @@ code {
 	font-size: smaller;
 	color: #FFFFFF;
 	text-shadow: 0 0 10px #FFFFFF;
+	
 
+}
+
+#pokem{
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	color: white;
 }
 
 #dbutton {

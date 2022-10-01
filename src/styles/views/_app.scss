@@ -20,57 +20,34 @@ code {
 	width: 300px;
 }
 
-#delete-button {
-	background-color: transparent;
-	border-radius: 28px;
-	border: 1px solid #f40909;
-	display: inline-block;
-	cursor: pointer;
-	color: #f40909;
-	font-size: 17px;
-	padding: 16px 31px;
-	text-decoration: none;
-	text-shadow: 0px 1px 0px #f40909;
-}
-
-.myButton:hover {
-	background-color: transparent;
-}
-
-.myButton:active {
-	position: relative;
-	top: 1px;
-}
-
 #borrar-button {
 	background-color: transparent;
 	border-radius: 28px;
 	border: 1px solid #f40909;
 	display: inline-block;
-	cursor: pointer;
 	color: #f40909;
 	font-family: Arial;
 	font-size: 17px;
 	padding: 16px 31px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #f40909;
+    .myButton:hover {
+        background-color: transparent;
+    }
+    
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
 }
 
-.myButton:hover {
-	background-color: transparent;
-}
 
-.myButton:active {
-	position: relative;
-	top: 1px;
-}
 
 #add-button {
 	background-color: transparent;
 	border-radius: 28px;
 	border: 6px solid #ff0000;
 	display: inline-block;
-	cursor: pointer;
 	color: #ff0000;
 	font-family: Arial;
 	font-size: 30px;
@@ -79,39 +56,42 @@ code {
 	text-shadow: 0px 1px 0px #ff0000;
 	text-shadow: rgb(66, 62, 62) 0px 0px 5px, rgb(77, 74, 74) 0px 0px 10px, #FFF 0px 0px 15px, #ffffff 0px 0px 20px, #ffffff 0px 0px 30px, #757575 0px 0px 40px, #777777 0px 0px 50px, #f9007d 0px 0px 75px;
 	color: #ff0000;
+
+    .myButton:hover {
+        background-color: transparent;
+    }
+    
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
 }
 
-.myButton:hover {
-	background-color: transparent;
-}
 
-.myButton:active {
-	position: relative;
-	top: 1px;
-}
 
 #reload-button {
 	background-color: transparent;
 	border-radius: 28px;
 	border: 1px solid #02bbe9;
 	display: inline-block;
-	cursor: pointer;
 	color: #02bbe9;
 	font-family: Arial;
 	font-size: 17px;
 	padding: 16px 31px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #02bbe9;
+
+    .myButton:hover {
+        background-color: transparent;
+    }
+    
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
 }
 
-.myButton:hover {
-	background-color: transparent;
-}
 
-.myButton:active {
-	position: relative;
-	top: 1px;
-}
 
 #listado {
 
@@ -144,7 +124,7 @@ code {
 	border-bottom-color: #ffffff;
 	border-bottom-width: 1px;
 	height: 40px;
-	color: rgb(255, 255, 255);
+	color: white;
 
 }
 
@@ -193,7 +173,6 @@ code {
 	border-radius: 10px;
 	border: 1px solid #ffffff;
 	display: inline-block;
-	cursor: pointer;
 	color: #0534f1;
 	font-family: Arial;
 	font-size: 17px;
@@ -217,7 +196,6 @@ code {
 	border-radius: 28px;
 	border: 1px solid #ffffff;
 	display: inline-block;
-	cursor: pointer;
 	color: #05f13c;
 	font-family: Arial;
 	font-size: 17px;
@@ -259,7 +237,7 @@ code {
 }
 
 .App-link {
-	color: #1a1dea;
+	color: #f70d0d;
 }
 
 @keyframes App-logo-spin {

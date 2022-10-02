@@ -42,6 +42,7 @@ function Altapokemon() {
         <input name="weight" type="number" onChange={handleChange}></input>
         <button id="dbutton" variant="contained">ALTA POKEMON</button>
       </form>
+
     </section>
   )
 }

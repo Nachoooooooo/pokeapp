@@ -43,7 +43,6 @@ function Altapokemon() {
         <button id="dbutton" variant="contained">ALTA POKEMON</button>
       </form>
 
-
     </section>
   )
 }

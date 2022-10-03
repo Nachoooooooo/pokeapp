@@ -46,11 +46,31 @@ const Pokes = () => {
   };
 
 
+  const data = localStorage.getItem("mispokemons")
+  let mispokemons = []
+  if (data != null) mispokemons = JSON.parse(data)
+
   return <section>
     <h1>Búsqueda por pokemon</h1>
     <form>
       <input name="pokemon" onChange={handleChange} />
     </form>
+    <ul>
+      {
+        mispokemons.map(pokemon => (
+
+          <li key={pokemon.name}>
+            <img src={pokemon.front_default} width={200} height={200} alt='pokemons'></img><br>
+            </br>NAME: {pokemon.name}<br>
+            </br> BASE EXPERIENCE: {pokemon.base_experience}<br>
+            </br> HEIGHT: {pokemon.height}<br>
+            </br> WEIGTH: {pokemon.weight}
+          </li>
+        ))
+      }
+    </ul>
+
+
 
     {filteredPokemons.length !== 0 ?
       <ul className='listado'>
@@ -58,12 +78,12 @@ const Pokes = () => {
 
 
 
-          <li key={pokemon.name}>  
-          <img src={pokemon.r.sprites.other.home.front_default} width={200} height={200} alt='pokemons'></img><br>
-          </br>NAME: {pokemon.name}<br>
-          </br> BASE EXPERIENCE: {pokemon.r.base_experience}<br>
-          </br> HEIGHT: {pokemon.r.height}<br>
-          </br> WEIGTH: {pokemon.r.weight}
+          <li key={pokemon.name}>
+            <img src={pokemon.r.sprites.other.home.front_default} width={200} height={200} alt='pokemons'></img><br>
+            </br>NAME: {pokemon.name}<br>
+            </br> BASE EXPERIENCE: {pokemon.r.base_experience}<br>
+            </br> HEIGHT: {pokemon.r.height}<br>
+            </br> WEIGTH: {pokemon.r.weight}
           </li>
         ))}
       </ul>

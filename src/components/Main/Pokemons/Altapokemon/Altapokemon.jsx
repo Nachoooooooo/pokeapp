@@ -21,7 +21,15 @@ function Altapokemon() {
     e.preventDefault()
     // POST con los datos
     //....
-    alert(`Pokemon:${values.name}. Gracias!!!`)
+    //alert(`Pokemon:${values.name}. Gracias!!!`)
+
+    let data = localStorage.getItem("mispokemons")
+    let mispokemons = [] 
+    if (data!=null) {
+      mispokemons=JSON.parse(data)
+    }
+    mispokemons.push(values)
+    localStorage.setItem("mispokemons", JSON.stringify(mispokemons))
   }
 
   return (
@@ -40,7 +48,7 @@ function Altapokemon() {
         <input name="height" type="number" onChange={handleChange}></input>
         <label htmlFor="weight">Weight</label>
         <input name="weight" type="number" onChange={handleChange}></input>
-        <button id="dbutton" variant="contained">ALTA POKEMON</button>
+        <button type="submit" id="dbutton">ALTA POKEMON</button>
       </form>
 
     </section>

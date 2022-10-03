@@ -50,7 +50,6 @@ npm start
 Technologies used in the project:
 
 *   React
-*   Morgan
 *   Sass
 
 <h2>🛡️ License:</h2>

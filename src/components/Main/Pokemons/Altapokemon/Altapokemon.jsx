@@ -21,7 +21,7 @@ function Altapokemon() {
     e.preventDefault()
     // POST con los datos
     //....
-    //alert(`Pokemon:${values.name}. Gracias!!!`)
+    alert(`POKEMON LLAMADO: ${values.name}. PUBLICADO!!!`)
 
     let data = localStorage.getItem("mispokemons")
     let mispokemons = [] 

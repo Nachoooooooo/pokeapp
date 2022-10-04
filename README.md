@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Pokeapp</h1>
 
-<p align="center"><img src="https://play-lh.googleusercontent.com/Xr5CkM0gU_boKbHCKSstIu5tT1F4cwzhlE8qpJJ4O0iGEHfhEgdtnNL4lpFAUJE3t7o=w600-h300-pc0xffffff-pd" alt="project-image"></p>
+<p align="center"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/87044f58-c765-43c5-bc51-8613e3ac7ab1/ddew4m7-c69a2c41-518f-48ca-ba35-8ab1895464e0.png" alt="project-image"></p>
 
 <p id="description">Ejercicio Full Stack Development "The Bridge" Ejercicio que hace un fetch a la "poke API" obteniendo datos y pintándolos en la página /pokemons</p>
 
@@ -23,7 +23,7 @@
 Here're some of the project's best features:
 
 *   Fetch a API POKEMON
-*   Búsqueda con Debounce (Retarde de 15 SEC)
+*   Búsqueda con Debounce (Retarde de 1,5 SEC)
 *   Busqueda sobre pokemons descargados
 *   Análisis de la API y sus rutas para la obtención de datos
 *   Descarga 100 Pokemons
@@ -54,8 +54,8 @@ Technologies used in the project:
 
 <h2>🛡️ License:</h2>
 
-This project is licensed under the ¡Licencia Gratis!
+4 FREE
 
 <h2>💖Like my work?</h2>
 
-Have a Nice Day!<p><img src="https://lh3.googleusercontent.com/F0jcefNzb6ZEnnJoPtkcix3vjAdtYhMndnZU0vZ4T26kmKXX_dG8ARVZr2EoImnByeBy8YXYZAswk8v7N4mbaWgLnBkLMlfoKL7cUp4Gj_M_=e365-pa-nu-w998-rw" alt="W3Schools.com"></p>v
+Have a Nice Day!<p><img src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b0/latest/20210908113912/Logo_Evoluciones_Pok%C3%A9mon.png/270px-Logo_Evoluciones_Pok%C3%A9mon.png" alt="Pokemon"></p>
